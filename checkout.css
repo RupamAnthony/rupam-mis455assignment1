@@ -1,0 +1,98 @@
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid hsl(67, 111, 244);
+    border-radius: 4px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin: 5px ;
+    background-color: rgb(57, 232, 118) ;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    display: center;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    border-bottom: 1px white;
+}
+
+.container{
+    width: 400 px;
+    padding: 10px;
+    margin: 50px;
+    display: grid; 
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    justify-content: center ;
+    }
+
+h2 { 
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+
+
+.textbox1{
+    /* margin: 10px; */
+    margin-left: 450px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    Height: 300px;
+    width: 400px;  
+}
+
+.para-1{
+    height: 20px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+color: #ccc;
+}
+
+.para-2 {
+    height: 0.5px;
+    width: 250px;
+     margin: 10px;
+     padding: 10px;
+    text-align: center;
+}
+
+    ::placeholder { 
+        padding: 10px;
+        margin: 10px;
+        
+        color: rgb(208, 208, 208);
+        opacity: 1;
+      }
+
+
+input {
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    padding-right: 120px;
+    margin-bottom: 10px;  
+}
+
+p{
+    width: 90%;
+    background-color: rgb(225, 130, 104);
+    color: rgb(57, 55, 55);  
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.image-container {
+  margin-top: 180px; /* Adjust as needed */
+  }

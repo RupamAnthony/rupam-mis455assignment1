@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite; 
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+nav ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+main {
+    padding: 20px;
+}
+
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+img{
+    width: 400px;
+    border-radius: 2%;
+    margin-left: 200px;
+}
+

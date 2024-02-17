@@ -1,0 +1,46 @@
+.inner{
+    border: 2px solid grey;
+    height: 350px; 
+    background-color: rgb(247, 240, 158);
+    margin: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    padding-right: 50px;
+    width: 250px;
+}
+
+.container{
+    /* Display grid has been used here  */
+    display: grid; 
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.inner img{
+    margin-left: 40px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.inner:hover{
+    border: 2px solid lightcoral;
+    box-shadow: 2px 5px 6px grey;
+}
+
+h1{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    width: 90%;
+    background-color: rgb(104, 217, 225);
+    color: rgb(57, 55, 55);  
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+/* the layout of home page div is written here */
+h1{
+    background-color: lightcoral;
+    color: blanchedalmond;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 400px;
+    border-radius: 2%;
+    margin-left: 200px;
+}
+
+.para1{
+    color: rgb(82, 79, 79);
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.para1 p{
+    width: 90%;
+    background-color: rgb(225, 155, 104);
+    color: rgb(57, 55, 55);  
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
